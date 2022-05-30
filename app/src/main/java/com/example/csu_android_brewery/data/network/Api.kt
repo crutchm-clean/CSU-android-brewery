@@ -7,10 +7,10 @@ import retrofit2.http.Query
 interface Api {
 
 
-    @GET("")
+    @GET("breweries/")
     suspend fun getAll() : List<BreweryDto>
 
-    @GET("/{obdb-id}")
+    @GET("breweries/{obdb-id}")
     suspend fun getById(@Path("obdb-id") id: String) : BreweryDto
 
 }

@@ -1,4 +1,6 @@
 package com.example.csu_android_brewery.domain.repositories.cloud
 
-interface LocationsRepo {
+import com.example.csu_android_brewery.domain.models.Location
+
+interface LocationsRepo : BaseRepo<Location> {
 }

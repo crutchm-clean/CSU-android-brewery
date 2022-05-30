@@ -6,7 +6,8 @@ import java.util.*
 data class Brewery(
     val id: String,
     val name: String,
+    val isFav: Boolean,
     val brewery_type: String,
-    val phone: String,
-    val website_url: String,
+    val phone: String?,
+    val website_url: String?,
 )

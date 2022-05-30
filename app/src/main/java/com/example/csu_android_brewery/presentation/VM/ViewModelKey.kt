@@ -1,4 +1,4 @@
-package com.example.csu_android_brewery.presentation.DI
+package com.example.csu_android_brewery.presentation.VM
 
 import androidx.lifecycle.ViewModel
 import dagger.MapKey

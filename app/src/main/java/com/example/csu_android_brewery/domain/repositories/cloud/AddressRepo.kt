@@ -1,4 +1,6 @@
 package com.example.csu_android_brewery.domain.repositories.cloud
 
-interface AddressRepo {
+import com.example.csu_android_brewery.domain.models.Address
+
+interface AddressRepo : BaseRepo<Address> {
 }

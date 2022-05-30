@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CSU-android-brewery</string>
+    <string name="api_key">0b55eabd-b172-45c8-8522-e7fe35913ed2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
